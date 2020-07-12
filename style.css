@@ -1,1 +1,46 @@
 
+
+.container{
+box-sizing: border-box;
+margin:4rem;
+border-style: solid;
+padding:10rem;
+justify-content: center;
+text-align: center;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+background-color: azure;
+text-emphasis-color: red;
+}
+
+.scores{
+    background:rgb(49, 116, 74);
+    color: blue;
+    box-sizing:border-box ;
+    border-radius: 10%;
+    border-style: groove;
+    border-color: black;
+    padding: 1rem ;
+    margin:auto;
+    justify-content: left;
+    justify-self: auto;
+    
+}
+.start-btn{
+ border: black;
+ border-style: groove;
+ border-radius: 5%;
+ text-align: center;
+ 
+}
+
+.h1{
+   align-content: center;
+}
+
+.p{
+    margin: auto;
+ border: 10px;   
+ text-align: center;
+ font-size: 22px;
+}
+

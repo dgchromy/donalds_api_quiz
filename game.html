@@ -4,33 +4,30 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Quiz</title>
-
-    <link rel="stylesheet" href="assets/app.css">
     <link rel="stylesheet" href="assets/game.css">
+    <link rel="stylesheet" href="assets/app.css">
 
 </head>
 <body>
-<div id="game" class="justify-center flex column">
+<div class="container" id="game" class="justify-center flex column">
     <div id="hud">
-        <h1 class="time">
-        </h1>
-        <div id="main">
-        </div>
-        <div id="hud-item">
-            <p id="progressText" class="hud-prefix">
-                Question
-            </p>
+
+        <h1 class="time"></h1>
+        <div id="main"></div> </div>
+       </div>
         <div id="progressBar">
             <div id="progressBarFull"></div>
         </div>
         </div>
         <div id="hud-item">
+          <p id="progressText" class="hud-prefix">
+            Question
+          </p>
+        <div id="hud-item">
             <p class="hud-prefix">
-              Score
+              Score 
             </p>
-            <h2 class="hud-main-text" id="score">
-              0
-            </h2>
+            <h2 class="hud-main-text" id="score" >0</h2>
           </div>
         </div>
     <div class="container">
@@ -59,3 +56,4 @@
     <script src="assets/game.js"></script>
 </body>
 </html>
+

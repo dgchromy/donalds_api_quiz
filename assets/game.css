@@ -57,7 +57,7 @@
     font-size: 2rem;
 } 
 
-/* Heads ups display*/
+/* Heads up display*/
 
 #hud{
     margin: 0rem;
@@ -92,7 +92,7 @@
     align-items: center;
 } 
 
-/*loader*/
+
 
 #loader{
     border: 1.6rem whitesmoke;
